@@ -1,9 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter as Router} from 'react-router-dom';
+import Hero from './Components/Hero';
 
 function App() {
   return (
-    <div>start</div>
+    <Router>
+      <Hero></Hero>
+    </Router>
   );
 }
 
